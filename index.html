@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeba Tasnia - Academic & Research Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Skip Link for Accessibility -->
+    <a class="skip-link" href="#home">Skip to main content</a>
+
+    <!-- ===== Navigation ===== -->
+    <nav aria-label="Main navigation">
+        <div class="navbar__inner">
+            <a href="#home" class="navbar__logo">Jeba Tasnia</a>
+            <ul class="navbar__links" role="menubar">
+                <li role="none"><a href="#home" class="navbar__link" role="menuitem">Home</a></li>
+                <li role="none"><a href="#about" class="navbar__link" role="menuitem">About</a></li>
+                <li role="none"><a href="#education" class="navbar__link" role="menuitem">Education</a></li>
+                <li role="none"><a href="#research" class="navbar__link" role="menuitem">Research</a></li>
+                <li role="none"><a href="#projects" class="navbar__link" role="menuitem">Projects</a></li>
+                <li role="none"><a href="#leadership" class="navbar__link" role="menuitem">Leadership</a></li>
+                <li role="none"><a href="#awards" class="navbar__link" role="menuitem">Awards</a></li>
+                <li role="none"><a href="#skills" class="navbar__link" role="menuitem">Skills</a></li>
+                <li role="none"><a href="#contact" class="navbar__link" role="menuitem">Contact</a></li>
+            </ul>
+            
+            <!-- Mobile Navigation Button -->
+            <button class="mobile-nav__btn" aria-label="Open navigation menu">
+                ☰
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-nav" id="main-content" role="navigation">
+            <button class="mobile-nav__close" aria-label="Close navigation menu">
+                ✕
+            </button>
+            <ul class="mobile-nav__list">
+                <li><a href="#about" class="mobile-nav__link">About</a></li>
+                <li><a href="#education" class="mobile-nav__link">Education</a></li>
+                <li><a href="#research" class="mobile-nav__link">Research</a></li>
+                <li><a href="#projects" class="mobile-nav__link">Projects</a></li>
+                <li><a href="#leadership" class="mobile-nav__link">Leadership</a></li>
+                <li><a href="#awards" class="mobile-nav__link">Awards</a></li>
+                <li><a href="#skills" class="mobile-nav__link">Skills</a></li>
+                <li><a href="#contact" class="mobile-nav__link">Contact</a></li>
+            </ul>
+            <div class="mobile-nav__social">
+                <a href="https://www.linkedin.com/in/jeba-tasnia?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="mobile-nav__socialLink" aria-label="LinkedIn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M16 8a6 6 0 0 0-12 0v6h12V8zm1.4-4.0L22.6 3.4a.75.75 0 0 0 .1-1.05H5.4a.75.75 0 0 0-.7.3L.4 10.5a.75.75 0 0 0 .1 1.05h14.7a.75.75 0 0 0 .7-.25.75.75 0 0 0 .1-1.05m-8.2 13.8L6.8 17.9a.75.75 0 0 0 .05.65h8.6a.75.75 0 0 0 .05-.65L9.8 15.5Z" fill="#142D2B"/>
+                    </svg>
+                </a>
+                <a href="mailto:info.jebatasnia@gmail.com" class="mobile-nav__socialLink" aria-label="Email">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2m2-2v8h12V6H6z" fill="#142D2B"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== Hero Section ===== -->
+    <header class="hero" id="home" aria-labelledby="hero-name">
+        <div class="hero__container">
+            <div class="hero__content">
+                <!-- Profile Photo -->
+                <img src="assets/images/profile-photo.jpg" alt="Jeba Tasnia - Pharmacy Undergraduate" class="hero__photo" loading="lazy">
+                
+                <div>
+                    <h1 class="hero__name" id="hero-name">Jeba Tasnia</h1>
+                    <p class="hero__tagline">Pharmacy Undergraduate | Aspiring Researcher | Student Leader</p>
+                    <p class="hero__description">Exploring Science. Building Knowledge. Advancing Research.</p>
+                    
+                    <!-- Buttons -->
+                    <div class="hero__buttons">
+                        <a href="#about" class="btn btn--primary">Explore My Profile</a>
+                        <a href="assets/cv/jeba-tasnia-cv.pdf" download class="btn btn--primary">Download My CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== About Me ===== -->
+    <section class="about" id="about" aria-labelledby="about-me">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" id="about-me">About Me</h2>
+                <p class="section__subtitle">I am a Bachelor of Pharmacy undergraduate at Manarat International University, Bangladesh with a growing interest in pharmaceutical sciences and biomedical research.</p>
+            </div>
+            
+            <div class="about__grid">
+                <div class="about__text">
+                    <p>I am a Bachelor of Pharmacy undergraduate at Manarat International University, Bangladesh. My academic interests lie in pharmaceutical sciences and biomedical research, particularly cancer pharmacology, oncology, breast cancer research, precision medicine, and drug discovery.</p>
+                    
+                    <p>I am interested in understanding disease mechanisms, exploring emerging scientific developments, and developing the research and analytical skills necessary for a future in biomedical science.</p>
+                    
+                    <p>Beyond academics, I actively engage in student leadership, debating, literary initiatives, and educational outreach. I believe in continuous learning, interdisciplinary collaboration, scientific communication, and evidence-based knowledge.</p>
+                    
+                    <p>My long-term goal is to pursue advanced education and contribute to meaningful research in pharmaceutical and biomedical sciences.</p>
+                </div>
+                
+                <div class="about__photo">
+                    <img src="assets/images/profile-photo.jpg" alt="Jeba Tasnia" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="education" id="education" aria-labelledby="education-title">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" id="education-title">Education</h2>
+            </div>
+            
+            <div class="education__timeline">
+                <div class="education__item">
+                    <div class="education__degree">Bachelor of Pharmacy (B.Pharm)</div>
+                    <div class="education__institution">Manarat International University, Bangladesh</div>
+                    <div class="education__period">2025 – Present</div>
+                    <div class="education__status">Academic Status: Undergraduate Student</div>
+                    <div class="education__department">Department: Pharmacy</div>
+                    <div class="education__cgpaplaceholder">First-Year CGPA: [Insert verified CGPA]</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Research Interests ===== -->
+    <section class="research" id="research" aria-labelledby="research-title">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" id="research-title">Research Interests</h2>
+            </div>
+            
+            <div class="research__intro">
+                <p>I am particularly interested in exploring the molecular mechanisms of diseases, therapeutic development, and emerging approaches in precision medicine.</p>
+            </div>
+            
+            <div class="research__tags">
+                <span class="tag">Cancer Pharmacology</span>
+                <span class="tag">Breast Cancer Research</span>
+                <span class="tag">Oncology and Precision Medicine</span>
+                <span class="tag">Drug Discovery and Development</span>
+                <span class="tag">Molecular Pharmacology</span>
+                <span class="tag">Pharmaceutical Sciences</span>
+                <span class="tag">Biomedical Research</span>
+                <span class="tag">Neuroscience</span>
+                <span class="tag">Women's Health and Reproductive Health</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Academic & Research Projects ===== -->
+    <section class="projects" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" id="projects-title">Academic & Research Projects</h2>
+            </div>
+            
+            <div class="projects__intro">
+                <p>A collection of academic explorations, research-related learning activities, and developing projects.</p>
+            </div>
+            
+            <div class="projects__grid">
+                <div class="message__empty">
+                    <p>No projects added yet. This section will feature academic projects, literature reviews, research proposals, scientific presentations, and research in progress as you develop them.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Leadership & Experience ===== -->
+    <section class="leadership" id="leadership" aria-labelledby="leadership-title">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" id="leadership-title">Leadership & Experience</h2>
+            </div>
+            
+            <!-- Experience 1 -->
+            <div class="leadership__item">
+                <div class="leadership__role">Campus Ambassador</div>
+                <div class="leadership__institution">Edumax Consultancy</div>
+                <div class="leadership__period">[Insert actual dates]</div>
+                <div class="leadership__location">Bangladesh</div>
+                <p class="leadership__description">Representing Edumax Consultancy in a campus-based student engagement role, with an interest in educational awareness and student outreach.</p>
+                <ul class="leadership__responsibilities">
+                    <li>Supporting student engagement and educational outreach.</li>
+                    <li>Sharing relevant educational opportunities and information with interested students.</li>
+                    <li>Developing communication, networking, and interpersonal skills.</li>
+                    <li>Contributing to student-focused awareness initiatives.</li>
+                </ul>
+            </div>
+            
+            <!-- Experience 2 -->
+            <div class="leadership__item">
+                <div class="leadership__role">Executive Committee Member</div>
+                <div class="leadership__institution">University Debate Club</div>
+                <div class="leadership__period">[Insert actual dates]</div>
+                <p class="leadership__description">Actively involved in student leadership and debate-related activities, contributing to organizational initiatives and the development of communication and critical-thinking skills.</p>
+            </div>
+            
+            <!-- Experience 3 -->
+            <div class="leadership__item">
+                <div class="leadership__role">Co-Founder</div>
+                <div class="leadership__institution">Hindol — Literature-Based Society</div>
+                <div class="leadership__period">[Insert actual dates]</div>
+                <p class="leadership__description">Co-founded Hindol, a student initiative focused on literature, creative expression, and intellectual engagement.</p>
+                <p class="leadership__key-contribution"><strong>Key Contribution:</strong> Hindol participated as a Creative and Literary Partner at MIUDC Invitationals: Chapter One 2026.</p>
+                <div class="leadership__areas">
+                    <strong>Areas of Involvement:</strong>
+                    <ul>
+                        <li>Literary and creative initiatives</li>
+                        <li>Student engagement</li>
+                        <li>Creative collaboration</li>
+                        <li>Cultural and intellectual activities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Awards & Achievements ===== -->
+    <section class="awards" id="awards" aria-labelledby="awards-title">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" id="awards-title">Awards & Achievements</h2>
+            </div>
+            
+            <div class="awards__list">
+                <!-- Award 1 -->
+                <div class="awardItem">
+                    <h3 class="awardItem__title">Best Organizer Award</h3>
+                    <div class="awardItem__institution">Awarded for contributions to organizing MIUDC Invitationals: Chapter One 2026.</div>
+                    <div class="awardItem__year">2026</div>
+                </div>
+                
+                <!-- Award 2 -->
+                <div class="awardItem">
+                    <h3 class="awardItem__title">Silver Explorer Award</h3>
+                    <div class="awardItem__institution">[Add issuing organization and event details after verification.]</div>
+                    <div class="awardItem__year">[Year after verification]</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- ===== Skills ===== -->
+    <section class="skills" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" id="skills-title">Skills</h2>
+            </div>
+            
+            <div class="skills__grid">
+                <!-- Academic & Research Skills -->
+                <div class="skillCategory">
+                    <h3>Academic & Research Skills</h3>
+                    <div class="skillItem">
+                        <span>Scientific Literature Reading</span>
+                    </div>
+                    <div class="skillItem">
+                        <span>Research-Oriented Learning</span>
+                    </div>
+                    <div class="skillItem">
+                        <span>Academic Writing (Developing)</span>
+                    </div>
+                    <div class="skillItem">
+                        <span>Critical Thinking</span>
+                    </div>
+                    <div class="skillItem">
+                        <span>Information Analysis</span>
+                    </div>
+                </div>
+                
+                <!-- Communication & Leadership -->
+                <div class="skillCategory">
+                    <h3>Communication & Leadership</h3>
+                    <div class="skillItem">Public Speaking</div>
+                    <div class="skillItem">Debate and Argumentation</div>
+                    <div class="skillItem">Team Collaboration</div>
+                    <div class="skillItem">Event Organization</div>
+                    <div class="skillItem">Interpersonal Communication</div>
+                </div>
+                
+                <!-- Digital Skills -->
+                <div class="skillCategory">
+                    <h3>Digital Skills</h3>
+                    <div class="skillItem">Microsoft Word</div>
+                    <div class="skillItem">Microsoft PowerPoint</div>
+                    <div class="skillItem">Canva</div>
+                    <div class="skillItem">AI-Assisted Academic Workflows</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CV / Resume ===== -->
+    <section class="cv-section" id="cv-section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Academic CV</h2>
+            </div>
+            
+            <div class="cv__description">
+                <p>Explore my academic background, leadership experience, achievements, and professional development.</p>
+            </div>
+            
+            <div class="cv__download">
+                <a href="assets/cv/jeba-tasnia-cv.pdf" download class="btn cv__btn">
+                    <span>Download CV</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="margin-left: 8px; vertical-align: middle;">
+                        <path d="M16 8a6 6 0 0 0-12 0v6h12V8zm1.4-4.0L22.6 3.4a.75.75 0 0 0 .1-1.05H5.4a.75.75 0 0 0-.7.3L.4 10.5a.75.75 0 0 0 .1 1.05h14.7a.75.75 0 0 0 .7-.25.75.75 0 0 0 .1-1.05m-8.2 13.8L6.8 17.9a.75.75 0 0 0 .05.65h8.6a.75.75 0 0 0 .05-.65L9.8 15.5Z" fill="#142D2B"/>
+                    </svg>
+                </a>
+                <p class="cv__placeholder">If the PDF is not available, use the placeholder below.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Contact & Professional Links ===== -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" id="contact-title">Contact & Professional Links</h2>
+            </div>
+            
+            <div class="contact__info">
+                <div class="contact__item">
+                    <h4>Email</h4>
+                    <a href="mailto:info.jebatasnia@gmail.com">info.jebatasnia@gmail.com</a>
+                </div>
+                <div class="contact__item">
+                    <h4>Location</h4>
+                    <p>Manarat International University, Dhaka, Bangladesh</p>
+                </div>
+            </div>
+            
+            <div class="contact__links">
+                <h3>Professional Links</h3>
+                <div class="contact__social">
+                    <a href="https://www.linkedin.com/in/jeba-tasnia?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="btn--secondary" aria-label="LinkedIn">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__copyright">
+                    <p>Jeba Tasnia | Academic & Research Portfolio</p>
+                    <p>Bangladesh</p>
+                </div>
+                <div class="footer__copyright">
+                    <p>© 2026 Jeba Tasnia. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== JavaScript ===== -->
+    <script src="script.js"></script>
+</body>
+</html>
